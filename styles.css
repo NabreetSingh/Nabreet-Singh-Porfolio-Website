@@ -1,0 +1,88 @@
+
+:root {
+    --primary-color: rgb(255, 92, 92);
+    --primary-variant: #ff2d2d;
+    --secondary-color: rgb(250, 250, 250);
+    --on-primary: rgb(250,250,250);
+    --on-background: rgb(66,66,66);
+    --on-background-alt: rgba(66, 66, 66, 0.7);
+    --background: rgb(255, 255, 255);
+    --box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="dark"] {
+    --primary-color: rgb(150, 65, 255);
+    --primary-variant: #6c63ff;
+    --secondary-color: #03dac5;
+    --on-primary: #000;
+    --on-background: rgba(255, 255, 255, 0.9);
+    --on-background-alt: rgba(255, 255, 255, 0.7);
+    --background: #121212;
+  }
+
+  *{
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      list-style: none;
+      box-sizing: border-box;
+  }
+
+  html {
+      box-sizing: border-box;
+  }
+
+  body {
+      background-color: rgb(237,248,254);
+  }
+
+  /* Navigation */
+  nav {
+      z-index: 10;
+      position: fixed;
+      font-size: 24px;
+      letter-spacing: 3px;
+      padding: 25px 25px 25px 25px;
+      width: 100vw;
+      /* background: rgb(255 255 255 / 50%); */
+  }
+
+  nav ul {
+      display: flex;
+      float: right;
+  }
+  
+
+  nav ul li {
+      display: inline-block;
+      /* line-height: 20px; */  
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(34,64,110);
+    padding: 20px 20px 20px 20px;
+    font-size: 12px;
+  }
+
+ a:hover {
+      background: rgb(176 223 247);
+      color: rgb(34,64,110);
+      box-sizing: 10px;
+      
+  }
+
+  .signature a{
+    font-family: 'GreatVibesRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+  }
+
+  #signatureOverride a:hover{
+    /* background: transparent; */
+    background: black;
+    
+  }
+  .active {
+    font-weight: bold;
+  }
