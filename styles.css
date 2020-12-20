@@ -23,13 +23,9 @@
   *{
       padding: 0;
       margin: 0;
-      text-decoration: none;
+      /* text-decoration: none;
       list-style: none;
-      box-sizing: border-box;
-  }
-
-  html {
-      box-sizing: border-box;
+      box-sizing: border-box; */
   }
 
   body {
@@ -39,50 +35,40 @@
   /* Navigation */
   nav {
       z-index: 10;
-      position: fixed;
       font-size: 24px;
       letter-spacing: 3px;
       padding: 25px 25px 25px 25px;
-      width: 100vw;
-      /* background: rgb(255 255 255 / 50%); */
-  }
-
-  nav ul {
-      display: flex;
-      float: right;
-  }
-  
-
-  nav ul li {
-      display: inline-block;
-      /* line-height: 20px; */  
   }
 
   nav ul li a{
     text-decoration: none;
     color: rgb(34,64,110);
     padding: 20px 20px 20px 20px;
-    font-size: 12px;
+    font-size: 16px;
   }
 
  a:hover {
       background: rgb(176 223 247);
-      color: rgb(34,64,110);
-      box-sizing: 10px;
       
+      box-sizing: 10px;
   }
 
   .signature a{
     font-family: 'GreatVibesRegular'; 
     font-weight: normal; 
     font-style: normal; 
+    font-size: 16px;
+    color: rgb(34,64,110);
   }
 
   #signatureOverride a:hover{
-    /* background: transparent; */
-    background: black;
-    
+    background: transparent;
   }
   .active {
     font-weight: bold;
+  }
+
+  .navbar-toggler{
+    /* border-color:rgb(34,64,110); */
+    background-color: rgb(34,64,110);
   }

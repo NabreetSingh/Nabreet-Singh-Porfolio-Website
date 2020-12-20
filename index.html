@@ -11,29 +11,60 @@
     <!-- Bootstrap Css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
+    
     <link rel="stylesheet" href="styles.css">
     <title>Nabreet's Portfolio</title>
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li class='signature' id="signatureOverride"><a  href="#"><span><</span>Nabreet Ghumman<span>/></span></span></a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Skill</a></li>
-            <li><a href="#">Education</a></li>
-            <li> <a href="#">Experience</a></li>
-            <li><a href="#">Project</a></li>
-            <li><a href="#">Contact Me</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-md header-nav fixed-top sticky-top">
+        <div class="container-fluid">
+            <!-- Signature -->
+            <div id="signatureOverride" class="signature">
+               <a href="#" class="navbar-brand"><span><</span>Nabreet Singh<span>/></span></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
+                <span class="fas fa-bars"></span>
+            </button>  
+            
+            <div class="collapse navbar-collapse justify-content-end" id="collapse_target">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Skill</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Project</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact Me</a>
+                </li>
+            </ul>
+            </div>
+        </div>
     </nav>
+
+    <div class="jumbotron">
+        <h1>Nabreet Singh</h1>
+    </div>
+
 
     <!-- <section>Hello</section>
 
     <section>Hello2</section> -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+   <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 
 </body>
 </html>
